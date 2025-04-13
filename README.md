@@ -6,28 +6,28 @@
 <h2>Estrutura do projeto</h2>
 <pre>
 CPF-GENERATOR/
-├── docs/								# Arquivos finais (utilizados para funcionamento do site e para deploy no GitHub Pages)
+├── docs/							# Arquivos finais (utilizados para funcionamento do projeto e para deploy no GitHub Pages)
 │	├── assets/
 │	│   └── js/
-│	│       ├── bundle.js				# Script final
-│	│       └── bundle.js.map			# Mapa de bundle.js
+│	│       ├── bundle.js					# Script final
+│	│       └── bundle.js.map				# Mapa de bundle.js
 │	└── index.html						# Página principal 
 │
-├── src/								# Códigos-fontes
+├── src/							# Códigos-fontes
 │   └── assets/
 │       ├── css/
-│       │   └── style.css				# Arquivo de estilo
+│       │   └── style.css					# Arquivo de estilo
 │       ├── img/
-│		│	└── [imagem]				# Imagem utilizada no projeto
+│	│   └── [imagem]					# Imagem utilizada no projeto
 │       └── js/
-│           ├── module/					# Scripts modularizados
+│           ├── module/						# Scripts modularizados
 │           │   ├── GenerateCpf.js
 │           │   └── ValideCpf.js
-│           └── main.js					# Script principal
+│           └── main.js						# Script principal
 │
-├── package-lock.json					# Versiona as dependências exatas do projeto
+├── package-lock.json						# Versiona as dependências exatas do projeto
 ├── package.json						# Informações do projeto, dependências e scripts npm
-└── webpack.config.js					# Configurações do Webpack
+└── webpack.config.js						# Configurações do Webpack
 </pre>
 <p>Alguns arquivos e pastas foram omitidos por não serem essenciais para a compreensão da estrutura do projeto.</p>
 
@@ -61,7 +61,7 @@ CPF-GENERATOR/
 
 <h2>Demosntração das funcionalidades</h2>
 <div align="center">
-	<img src="./src/assets/img/demonstration.gif" alt="demonstração das funcionalidades do site" height="300px">
+	<img src="./src/assets/img/demonstration.gif" alt="demonstração das funcionalidades do site" height="400px">
 </div>
 
 <h2>Como rodar o porjeto em diferentes ambientes</h2>
