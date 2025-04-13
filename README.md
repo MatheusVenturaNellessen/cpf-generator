@@ -6,14 +6,14 @@
 <h2>Estrutura do projeto</h2>
 <pre>
 CPF-GENERATOR/
-├── docs/							# Arquivos finais (utilizados para funcionamento do projeto e para deploy no GitHub Pages)
+├── docs/							# Arquivos finais (utilizados para funcionamento do projeto e para deploy)
 │	├── assets/
 │	│   └── js/
 │	│       ├── bundle.js					# Script final
 │	│       └── bundle.js.map				# Mapa de bundle.js
 │	└── index.html						# Página principal 
 │
-├── src/							# Códigos-fontes
+├── src/							# Códigos-fonte
 │   └── assets/
 │       ├── css/
 │       │   └── style.css					# Arquivo de estilo
@@ -37,7 +37,7 @@ CPF-GENERATOR/
 <ul>
 	<li>HTML5</li>
 	<li>CSS3</li>
-	<li>JavaScript ECS6+</li>
+	<li>JavaScript ES6+</li>
 	<li>Node.js v20.17.0</li>
 	<li>Node Package Manager (npm) ^10.8.2</li>
 	<li>Webpack ^5.98.0</li>
@@ -64,7 +64,7 @@ CPF-GENERATOR/
 	<img src="./src/assets/img/demonstration.gif" alt="demonstração das funcionalidades do site" height="400px">
 </div>
 
-<h2>Como rodar o porjeto em diferentes ambientes</h2>
+<h2>Como rodar o projeto em diferentes ambientes</h2>
 <p>Para executar este projeto, é necessário ter os seguintes pré-requisitos:</p>
 <ul>
 	<li>Node.js - Versão mínima recomendada: 20.x ou superior.</li>
@@ -81,9 +81,9 @@ CPF-GENERATOR/
 	<pre><code>npm install</code></pre>
 	<p>Após o comando, a pasta <code>node_modules</code> com todas as dependências será criada em seu ambiente.</p>
 	<li>Abra o aqruivo <code>index.html</code> dentro da pasta <code>docs/</code> em um navegador.</li>
-	<p>Para gerar arquivos finais novamente após alterações, execute o comando:</p>
-	<pre><code>npm run build</code></pre>
 </ol>
+<p>Para gerar arquivos finais novamente após alterações, execute o comando:</p>
+<pre><code>npm run build</code></pre>
 
 <hr>
 
