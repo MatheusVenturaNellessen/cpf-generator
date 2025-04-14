@@ -63,6 +63,10 @@ CPF-GENERATOR/
 <div align="center">
 	<img src="./src/assets/img/demonstration.gif" alt="demonstração das funcionalidades do site" height="400px">
 </div>
+<p>Durante a demonstração, foi utilizado o site <a href="https://www.4devs.com.br/validador_cpf" target="_blank">4Devs - Validator de CPF</a> para validar os CPFs gerados pelo projeto.</p>
+<p>Todos os direitos sobre o conteúdo e funcionalidades do site pertencem aos seus desenvolvedores.</p>
+
+<hr>
 
 <h2>Como rodar o projeto em diferentes ambientes</h2>
 <p>Para executar este projeto, é necessário ter os seguintes pré-requisitos:</p>
@@ -73,7 +77,7 @@ CPF-GENERATOR/
 <p>Passo-a-passo:</p>
 <ol>
 	<li>Instale <code>Node.js</code> clicando <a href="https://nodejs.org/en/download" target="_blank">aqui</a>.</li>
-	<li>Navegue até o diretório pretendido:</li>
+	<li>Após a instalação, navegue até o diretório pretendido:</li>
 	<pre><code>cd caminho/do/diretorio</code></pre>
 	<li>No diretório escolhido, clone o repositório:</li>
 	<pre><code>git clone https://github.com/MatheusVenturaNellessen/cpf-generator.git</code></pre>
@@ -82,6 +86,7 @@ CPF-GENERATOR/
 	<p>Após o comando, a pasta <code>node_modules</code> com todas as dependências será criada em seu ambiente.</p>
 	<li>Abra o aqruivo <code>index.html</code> dentro da pasta <code>docs/</code> em um navegador.</li>
 </ol>
+<h4>Observação:</h4>
 <p>Para gerar arquivos finais novamente após alterações, execute o comando:</p>
 <pre><code>npm run build</code></pre>
 
